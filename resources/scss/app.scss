@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    body{
+        margin: 0 15%;
+    }
+
+    h1 {
+        text-transform: capitalize;
+        text-align: center;
+        padding: 3rem 0;
+        font-size: 3rem;
+    }
+
+    section {
+        display: flex;
+
+        article {
+            margin-right: 2rem;
+
+            p {
+                margin-bottom: 1.2rem;
+            }
+        }
+    }
+}
