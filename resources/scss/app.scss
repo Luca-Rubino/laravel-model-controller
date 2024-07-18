@@ -4,7 +4,7 @@
     box-sizing: border-box;
 
     body{
-        margin: 0 15%;
+        margin: 0 2%;
     }
 
     h1 {
@@ -16,12 +16,27 @@
 
     section {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 
         article {
-            margin-right: 2rem;
+            margin: 1rem .5rem;
+            width: 23rem;
+            border: 2px solid black;
+            border-radius: 8px;
+            padding: 1rem;
+            background-color: #b89566;
+        
 
             p {
                 margin-bottom: 1.2rem;
+                padding: 0.5rem;
+                text-align: center;
+                font-size: 1.3rem;
+                color: #611111;
+                text-shadow: 2px 3px 30px #007c7c;
+                font-weight: 900;
+                font-family: Arial, Helvetica, sans-serif;
             }
         }
     }
